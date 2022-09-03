@@ -10,7 +10,7 @@ void PrintNumber(int numberN, int numberM)
         PrintNumber(numberN + 1, numberM);
         Console.Write(numberN + " ");
     }
-    else if (numberN == numberM)
+    else if (numberM == numberN)
     {
         Console.Write(numberN + " ");
         return;
